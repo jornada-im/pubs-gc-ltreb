@@ -4,9 +4,19 @@ Public documentation, analysis, and code products for the global change LTREB pr
 
 **Directories**
 
-* `src/`: common source code for loading or transforming project data
-* `manuscripts/`: analysis scripts, figure creation code, and other products used in submitted or published manuscripts
-* `metadata/`: contextual information files
+├── manuscripts                  - Analysis scripts, figure creation code, etc. for manuscripts
+│   ├── schadenfreude            -   Materials for in-review "Schadenfreude" project MS
+│   │   ├── SoilMoisture.ipynb   -     Jupyter notebook for a soil moisture analysis
+│   │   └── ...
+│   └── ...
+├── metadata                     - Files with contextual information and metadata
+│   ├── lt_plot_trt.csv          -   Plot and treatment table
+│   └── ...
+├── README.md                    - This file
+└── src                          - Common source code for loading or transforming project data
+    ├── schadenfreude_helper.py  -   Code for the Schadenfreude project
+    └── ...
+
 
 **Branches**
 
